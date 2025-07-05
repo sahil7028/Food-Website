@@ -1,0 +1,35 @@
+.footer{
+    height:130px;
+    width:100%;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+
+}
+.socialmedia img{
+    height:60px;
+    width:80px;
+    padding:10px;
+    cursor:pointer;
+}
+p{
+    color:white;
+    font-size: 20px;
+    margin-top: -2px;
+}
+@media (max-width: 1000px ) {
+    .footer{
+        height:100px;
+        width:100%;
+    }
+    .socialmedia img{
+        height:30px;
+        width:50px;
+    }
+    p{
+        margin-top: -2px;
+        font-size: 15px;
+    }
+}

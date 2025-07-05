@@ -1,0 +1,42 @@
+.about{
+    height:auto;
+    width:100%;
+}
+.abouttop{
+    height:50vh;
+    width:100%;
+    background-image: url('../assests/multiplePizzas.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about .aboutbottom h1{
+    font-size:4rem;
+    text-align: center;
+}
+.aboutbottom p{
+    width:1200px;
+    color:black;
+    margin-left: 17%;
+    
+}
+
+@media (max-width: 600px) {
+.about{
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about .aboutbottom h1{
+    font-size:25px;
+}
+.aboutbottom p{
+    width:500px;
+    color:black;
+    margin-left: -70px;
+    font-size: 12px;
+}
+}
+@media (max-width: 1000px ) {
+
+}
